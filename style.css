@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----Heading ---*/
+
+h2{
+    text-align: center;
+}
+
+/*----Container --*/
+
+.slider-container{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+/*-----Images -----*/
+
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide{
+    min-width: 100%;
+}
+
+img{
+    width: 100%;
+
+
+    height: auto;
+}
+
+/*----Buttons ----*/
+
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
